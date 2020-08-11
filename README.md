@@ -1,5 +1,7 @@
 # Data-Structure-and-Algorithm-in-Python
 
+This repository aims at implementation of various Data Structures and Algorithms using Python, and apply them to solve Leetcode problems.
+
 ***Data Structures implementation using Python 3***
 |     Data Structure        |          status         |
 | ------------------------- | ----------------------- |
