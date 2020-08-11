@@ -3,25 +3,30 @@
 ***Data Structures implementation using Python 3***
 |     Data Structure        |          status         |
 | ------------------------- | ----------------------- |
-|         Stacks            |         Completed       |
-|         Queues            |         Completed       |
-|       Linked List         |         Completed       |
+|         Stacks            |                         |
+|         Queues            |                         |
+|       Linked List         |                         |
 |   Binary Search Tree      |         Completed       |
 |         Heap              |         Completed       |
 |        Hashset            |         Completed       |
-
+|      Ordered Map          |                         |
+|         Trie              |                         |
 
 ***Popular Algorithms implementation using Python 3***
 |       Algorithms          |         Status          |
 | ------------------------- | ----------------------- |
-|     Selection Sort        |         Completed       |
-|     Insertion Sort        |         Completed       |
-|       Bubble Sort         |         Completed       |
+|        Recursion          |                         |
+|     Selection Sort        |                         |
+|     Insertion Sort        |                         |
+|       Bubble Sort         |                         |
 |       Merge Sort          |         Completed       |
-|       Quick Sort          |         Completed       |
-|   Dynamic Programming     |         Completed       |
-|       Binary Search       |         Completed       |
-|   Bredth First Search     |         Completed       |
-|    Depth First Search     |         Completed       |
+|    Divide and Conquer     |         Completed       |
+|       Quick Sort          |                         |
+|   Dynamic Programming     |                         |
+|      Backtracking         |         Completed       |
+|         Greedy            |                         |
+|       Binary Search       |                         |
+|   Bredth First Search     |                         | 
+|    Depth First Search     |                         |
 |    Knuth–Morris–Pratt     |         Completed       |
 
