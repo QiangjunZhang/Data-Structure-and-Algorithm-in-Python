@@ -1,4 +1,17 @@
 class Solution:
+    def kSum(nums, target, k):
+    res = []
+    if len(nums) == 0 or nums[0] * k > target or target > nums[-1] * k:
+        return res
+    if k == 2:
+        return self.twoSum(nums, target)
+    for i in range(len(nums)):
+        if i == 0 or nums[i - 1] != nums[i]:
+            for _, set in enumerate(kSum(nums[i + 1:], target - nums[i], k - 1)):
+                res.append([nums[i]] + set)
+    return res
+
+
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
         i = 0
@@ -11,7 +24,7 @@ class Solution:
                     result.append([nums[i]] + ans)
                 i += 1
         return result
-        
+
     
     def twoSum(self, nums, target):
         ans = []
