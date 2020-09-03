@@ -5,22 +5,17 @@ This repository aims at implementation of various Data Structures and Algorithms
 ***Data Structures implementation using Python 3***
 |     Data Structure        |          status         |
 | ------------------------- | ----------------------- |
-|         Stacks            |                         |
-|         Queues            |         Completed       |
-|       Linked List         |         Completed       |
+|         PyList            |         Completed       |
 |   Binary Search Tree      |         Completed       |
-|         Heap              |         Completed       |
+|         Heap              |                         |
 |        Hashset            |         Completed       |
-|      Ordered Map          |         Completed       |
+|      Ordered Map          |                         |
 |         Trie              |                         |
 
 ***Popular Algorithms implementation using Python 3***
 |       Algorithms          |         Status          |
 | ------------------------- | ----------------------- |
 |        Recursion          |         Completed       |
-|     Selection Sort        |                         |
-|     Insertion Sort        |                         |
-|       Bubble Sort         |                         |
 |       Merge Sort          |         Completed       |
 |    Divide and Conquer     |         Completed       |
 |       Quick Sort          |         Completed       |
