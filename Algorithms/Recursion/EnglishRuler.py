@@ -18,4 +18,10 @@ def draw_ruler(num_inches, major_lengh):
         draw_interval(major_lengh -1)
         draw_line(major_lengh, str(i))
 
-draw_ruler(3,3)
+
+def test():
+    draw_ruler(3,5)
+
+
+if __name__ == '__main__':
+    test()

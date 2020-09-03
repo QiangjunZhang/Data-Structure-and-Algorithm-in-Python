@@ -4,6 +4,7 @@ class ListNode:
         self.val = val
         self.next = next
 
+
 class SolutionRec:
     def reverseList(self, head):
         return self._reverse(head)
