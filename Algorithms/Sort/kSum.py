@@ -11,7 +11,6 @@ class Solution:
                 res.append([nums[i]] + set)
     return res
 
-
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
         i = 0
@@ -25,7 +24,6 @@ class Solution:
                 i += 1
         return result
 
-    
     def twoSum(self, nums, target):
         ans = []
         left = 0
@@ -41,7 +39,6 @@ class Solution:
                 while nums[left] == nums[left-1] and left < right:
                     left += 1
         return ans
-
 
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         nums.sort()
