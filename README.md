@@ -27,4 +27,5 @@ This repository aims at implementation of various Data Structures and Algorithms
 |    Depth First Search     |         Completed       |
 |    Knuth–Morris–Pratt     |         Completed       |
 |    Line Sweeping          |         Completed       |
+|    Monotonic Stack        |         Completed       |
 

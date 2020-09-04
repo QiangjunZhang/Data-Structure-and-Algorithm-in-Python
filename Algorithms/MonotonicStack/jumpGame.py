@@ -1,5 +1,5 @@
 class JumpGame:
-    def jump(self, nums: List[int]) -> int:
+    def jump(self, nums):
         """
         keep a monotonic jump range
         """
