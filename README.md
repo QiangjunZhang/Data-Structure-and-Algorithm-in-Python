@@ -28,4 +28,5 @@ This repository aims at implementation of various Data Structures and Algorithms
 |    Knuth–Morris–Pratt     |         Completed       |
 |    Line Sweeping          |         Completed       |
 |    Monotonic Stack        |         Completed       |
+|    Kadane's algorithm     |         Completed       |
 
