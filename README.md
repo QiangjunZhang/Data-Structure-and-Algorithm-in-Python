@@ -26,4 +26,5 @@ This repository aims at implementation of various Data Structures and Algorithms
 |   Bredth First Search     |         Completed       | 
 |    Depth First Search     |         Completed       |
 |    Knuth–Morris–Pratt     |         Completed       |
+|    Line Sweeping          |         Completed       |
 
