@@ -1,4 +1,6 @@
 import unittest
+
+from DataStructure.OrderedDict import LRUCache
 from DataStructure.pylist import PyList
 from DataStructure.hashset import HashSet
 
@@ -50,6 +52,25 @@ class HashSetMethods(unittest.TestCase):
         with self.assertRaisesRegex(KeyError, 'Item not in HashSet'):
             s.remove(7)
         self.assertEqual(5 in s, False)
+
+
+class TestLRU(unittest.TestCase):
+    def test_LRU(self):
+        obj = LRUCache(2)
+        self.assertEqual(obj.get(1), -1)
+        obj.put(1, 1)
+        obj.put(2, 2)
+        self.assertEqual(obj.get(1), 1)
+        obj.put(3, 3)
+        self.assertEqual(obj.get(2), -1)
+        obj.put(4, 4)
+        self.assertEqual(obj.get(1), -1)
+        self.assertEqual(obj.get(3), 3)
+        self.assertEqual(obj.get(4), 4)
+        obj.put(5, 5)
+        self.assertEqual(obj.get(3), -1)
+        obj.put(4, 3)
+        self.assertEqual(obj.get(4), 3)
 
 
 if __name__ == '__main__':
