@@ -9,7 +9,7 @@ This repository aims at implementation of various Data Structures and Algorithms
 |   Binary Search Tree      |         Completed       |
 |         Heap              |                         |
 |        Hashset            |         Completed       |
-|      Ordered Map          |                         |
+|      Ordered Map          |         Completed       |
 |         Trie              |                         |
 
 ***Popular Algorithms implementation using Python 3***
