@@ -10,7 +10,7 @@ This repository aims at implementation of various Data Structures and Algorithms
 |         Heap              |                         |
 |        Hashset            |         Completed       |
 |      Ordered Map          |         Completed       |
-|         Trie              |                         |
+|         Trie              |         Completed       |
 
 ***Popular Algorithms implementation using Python 3***
 |       Algorithms          |         Status          |

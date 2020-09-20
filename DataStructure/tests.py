@@ -3,7 +3,7 @@ import unittest
 from DataStructure.OrderedDict import LRUCache
 from DataStructure.pylist import PyList
 from DataStructure.hashset import HashSet
-
+from DataStructure.trie import Trie
 
 class PyListMethods(unittest.TestCase):
     def test_append(self):
@@ -71,6 +71,19 @@ class TestLRU(unittest.TestCase):
         self.assertEqual(obj.get(3), -1)
         obj.put(4, 3)
         self.assertEqual(obj.get(4), 3)
+
+
+class TestTrie(unittest.TestCase):
+    def test_trie(self):
+        trie = Trie()
+        self.assertEqual(trie.search('banana'), False)
+        trie.insert('banana')
+        self.assertEqual(trie.search('banana'), True)
+        self.assertEqual(trie.search('bana'), False)
+        self.assertEqual(trie.search('apple'), False)
+        trie.insert('apple')
+        self.assertEqual(trie.search('apple'), True)
+
 
 
 if __name__ == '__main__':
